@@ -1,7 +1,11 @@
 import Header from "@/components/header"
 import ContactInfoHeader from "@/components/contact-info-header"
 import HeroSection from "@/components/hero-section"
+<<<<<<< HEAD
 import StatsSection from "@/components/stats-section" 
+=======
+import StatsSection from "@/components/stats-section"
+>>>>>>> cf36831362487c05fe61cf20fc2aea2134fd8c22
 import AboutSection from "@/components/about-section"
 import ExperienceSection from "@/components/experience-section"
 import CoveringAreaSection from "@/components/covering-area-section"
