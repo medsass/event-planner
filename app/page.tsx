@@ -2,10 +2,14 @@ import Header from "@/components/header"
 import ContactInfoHeader from "@/components/contact-info-header"
 import HeroSection from "@/components/hero-section"
 <<<<<<< HEAD
+<<<<<<< HEAD
 import StatsSection from "@/components/stats-section" 
 =======
 import StatsSection from "@/components/stats-section"
 >>>>>>> cf36831362487c05fe61cf20fc2aea2134fd8c22
+=======
+import StatsSection from "@/components/stats-section"
+>>>>>>> 2986b3a (Initial commit)
 import AboutSection from "@/components/about-section"
 import ExperienceSection from "@/components/experience-section"
 import CoveringAreaSection from "@/components/covering-area-section"
@@ -21,7 +25,10 @@ import Footer from "@/components/footer"
 
 export default function Home() {
   return (
+<<<<<<< HEAD
     //gfgfg
+=======
+>>>>>>> 2986b3a (Initial commit)
     <div className="bg-white">
       <ContactInfoHeader />
       <Header />
