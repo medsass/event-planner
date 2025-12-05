@@ -7,7 +7,11 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+<<<<<<< HEAD
   title: 'Event-planner',
+=======
+  title: 'v0 App',
+>>>>>>> aefb7172 (commit)
   description: 'Created with v0',
   generator: 'v0.app',
   icons: {
