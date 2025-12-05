@@ -1,22 +1,14 @@
-import Image from "next/image"
-
 export default function CoveringAreaSection() {
-  const areas = [
-    { title: "Birthday Party Event", image: "/beautiful-birthday-party-celebration-with-decorati.jpg" },
-    { title: "Wedding Party Event", image: "/elegant-wedding-ceremony-with-flowers-and-decorati.jpg" },
-    { title: "Family Party Event", image: "/fun-family-gathering-celebration-with-food-and-act.jpg" },
-  ]
+  const areas = [{ title: "Birthday Party Event" }, { title: "Wedding Party Event" }, { title: "Family Party Event" }]
 
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16" id="work">
+    <section className="max-w-7xl mx-auto px-6 py-16">
       <h2 className="text-3xl font-bold mb-12 text-center">My Covering Area</h2>
 
       <div className="grid grid-cols-3 gap-8">
         {areas.map((area, index) => (
           <div key={index} className="flex flex-col items-center gap-4">
-            <div className="relative w-40 h-40 rounded-full overflow-hidden shadow-lg">
-              <Image src={area.image || "/placeholder.svg"} alt={area.title} fill className="object-cover" />
-            </div>
+            <div className="w-40 h-40 bg-gray-300 rounded-full" />
             <p className="text-center text-gray-700 font-medium">{area.title}</p>
           </div>
         ))}
